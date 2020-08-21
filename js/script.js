@@ -3,6 +3,18 @@ var birthMonth = prompt('Please enter the month you were born.');
 var yearOfBirth = prompt('Please enter the year you were born');
 alert('Your Birthday is ' + [dateOfBirth] + '/' + [birthMonth] + '/' + [yearOfBirth]);
 
+var century = parseInt(yearOfBirth[0]+yearOfBirth[1]);
+alert(century);
+
+var dayOfBirth = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+function getDayOfWeek(){
+   var weekDay = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;
+   return(weekDay);
+}
+alert('You were born on a ' + [weekDay])
+
+
+
 
 
 // var add = function(number1, number2) {
