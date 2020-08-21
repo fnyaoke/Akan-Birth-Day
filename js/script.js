@@ -1,6 +1,7 @@
 var dateOfBirth = prompt('Please enter your date of birth');
 var birthMonth = prompt('Please enter the month you were born.');
 var yearOfBirth = prompt('Please enter the year you were born');
+alert('Your Birthday is ' + [dateOfBirth] + '/' + [birthMonth] + '/' + [yearOfBirth]);
 
 
 
