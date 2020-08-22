@@ -24,4 +24,16 @@ alert('You were born in the '+ [year]+ 'th year of the '+[century]+'th century o
  else {
      nDayBorn=nDay;
  };
- 
+ //Display day of week
+var weekDay = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+alert('You were born on a ' + (weekDay[nDayBorn]) + '!');
+//find Akan Name
+var maleAkanName = ["Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", "Kwasi"];
+var femaleAkanName = ["Adwaa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua"];
+if (yourGender==='male') {
+    alert('Your Akan name is ' + (maleAkanName[nDayBorn]) + '!');
+} 
+else {
+    alert('Your Akan name is ' + (femaleAkanName[nDayBorn]) + '!');
+}
