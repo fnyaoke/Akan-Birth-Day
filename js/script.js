@@ -23,26 +23,28 @@ alert('You were born in the '+ [year]+ 'th year of the '+[century]+'th century o
         else{
             nDayBorn=nDay;
         };
-        //Display day of week
-        var weekDay = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-
-        var dayOfWeek=weekDay[nDayBorn];
-
-        //find Akan Name
-        var maleAkanName = ["Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", "Kwasi"];
-        var femaleAkanName = ["Adwaa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua"];
-        var gncAkanName = ["Adwaa-Kwadwo", "Abena-Kwabena", "Akua-Kwaku", "Yaa-Yaw", "Afua-Kifi","Ama-Kwame","Akosua-Kwasi" ]
-
-        if (yourGender==='Male') {
-            var akanName= maleAkanName[nDayBorn];
-        } 
-            else if (yourGender==="Female") {
-            var akanName= femaleAkanName[nDayBorn];
-        }
-        else{
-            var name = ncAkanName[nDayBorn];
-        };
  }
+ //Display day of week
+ var weekDay = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+ var dayOfWeek =weekDay[nDayBorn];
+
+ //find Akan Name
+ var maleAkanName = ["Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", "Kwasi"];
+ var femaleAkanName = ["Adwaa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua"];
+ var gncAkanName = ["Adwaa-Kwadwo", "Abena-Kwabena", "Akua-Kwaku", "Yaa-Yaw", "Afua-Kifi","Ama-Kwame","Akosua-Kwasi" ]
+
+ if (yourGender==='Male') {
+     var akanName= maleAkanName[nDayBorn];
+ } 
+     else if (yourGender==="Female") {
+     var akanName= femaleAkanName[nDayBorn];
+ }
+ else{
+     var akanName = ncAkanName[nDayBorn];
+ };
+
+ var results = ('You were born on ' + dayOfWeek + ' and your Akan Name is ' + akanName)
 //  var nDay = Math.trunc(dayOfBirth);
 //  alert(nDay)
 //  if (nDay>=3) {
