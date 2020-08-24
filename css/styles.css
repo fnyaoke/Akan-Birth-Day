@@ -4,18 +4,20 @@ body {font-family: Verdana, sans-serif;}
     color: darkred;
 }
 .jumbotron{
-    border: solid blue 3px;
     background-color: white;
+    box-shadow: 3px 3px 5px maroon;
+    text-align: center;
 }
 .query{
     display: flex;
     padding: 5px;
     box-shadow: 3px 3px 5px maroon;
+    justify-content: space-around;
 }
 /* Month header */
 .month {
   width: 100%;
-  background: hsl(0, 0%, 0%);
+  background: hsl(0, 0%, 100%);
   text-align: center;
 }
 

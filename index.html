@@ -22,11 +22,15 @@
             <div class="form">
                 <div>
                 <p class="question">Enter the year you were born</p>
-                <input type="text" name="year" size="10">
+                <input id= "year-born" type="text" name="year" size="10">
                 </div>
+            </div>
+            <br>
+            <br>
+            <div class="form">
                 <div class="gender">
                     <p class="question">Choose your prefered gender</p>
-                    <select name="gender-identity" id="identity">
+                    <select id="your-gender" name="gender-identity" id="identity">
                         <option value="select">Select one</option>    
                         <option value="male">Male</option>
                         <option value="female">Female</option>
@@ -34,9 +38,10 @@
                         <option value="nonbinary">Non Binary</option>
                     </select>
                 </div>
-                <br>
-                <br>
-            
+            </div>
+            <br>
+            <br>
+            <div class="form">
                 <div class="month">
                     <p class="question">Choose the Month that you were born</p>
                     <form action="">
@@ -57,12 +62,15 @@
                         </datalist>
                     </form>
                 </div>
-                            
+            </div>
+            <br>
+            <br>
+            <div class="form">
                 <div class="year">
                     <p class="question">Choose the Month that you were born</p>
                     <form action="">
                         <input list="dates" name="date">
-                        <datalist id="birthmonth">
+                        <datalist id="birthday">
                             <option value="1">
                             <option value="2">
                             <option value="3">
@@ -98,12 +106,13 @@
                     <br>
                     <br>
                 </div>
-                <div class="weekday">
-                    <input type="button" value="Day of Week" onClick="getDayOfWeek()">
+             <div>
+                    <div class="results">
+                        <input type="button" value="Get Results" onClick="">
+                    </div>
                 </div>
-                <div class="akan">
-                    <input type="button" value="Akan Name" onclick="">
-                </div>
+                
+                
         </div>
     </div>
    
