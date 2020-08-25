@@ -1,7 +1,7 @@
-var dateOfBirth = document.form.days.value;
-var birthMonth = document.form.months.value;
-var yearOfBirth = document.form.year.value;
-var yourGender = document.form.gender-identity.value;
+var dateOfBirth = document.getElementById("dateborn");
+var birthMonth = document.getElementById("birthmonth");
+var yearOfBirth = document.getElementById("year");
+var yourGender = document.getElementById("identity");
 alert('Your Birthday is ' + [dateOfBirth] + '/' + [birthMonth] + '/' + [yearOfBirth]);
 //convert the string input into number datatypes//
 var century = parseInt(yearOfBirth[0]+yearOfBirth[1]);
