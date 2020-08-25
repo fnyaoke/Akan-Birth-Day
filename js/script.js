@@ -43,8 +43,10 @@ alert('You were born in the '+ [year]+ 'th year of the '+[century]+'th century o
  else{
      var akanName = ncAkanName[nDayBorn];
  };
-
- var results = ('You were born on ' + dayOfWeek + ' and your Akan Name is ' + akanName)
+function getResults() {
+    alert ('You were born on ' + dayOfWeek + ' and your Akan Name is ' + akanName)
+}
+ 
 //  var nDay = Math.trunc(dayOfBirth);
 //  alert(nDay)
 //  if (nDay>=3) {
