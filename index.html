@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- <script src="js/script.js"></script> -->
+        <script src="js/script.js"></script>
        
         <div class="jumbotron">
             <h2>What Day of the Week Were you Born?</h2>
@@ -45,7 +45,8 @@
                 <div class="month">
                     <p class="question">Enter the Month that you were born</p>
                     <form action="">
-                        <input type="text" name="month-born" id="birthmonth">
+                        <input type="text" name="month-born" placeholder="12" id="birthmonth">
+                        
                         <i></i>
                     </form>
                 </div>
@@ -69,7 +70,7 @@
     <br>
     <div class="jumbotron" id="final-results">
         <div class="results">
-            <input type="button" value="Get Results" onClick="">
+            <input type="button" value="Get Results" onClick="getResults()">
         </div>
      </div>      
     
