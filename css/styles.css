@@ -4,7 +4,7 @@ body {font-family: Verdana, sans-serif;}
     color: darkred;
 }
 .jumbotron{
-    background-color: white;
+    background-color: rgb(221, 218, 218);
     box-shadow: 3px 3px 5px maroon;
     text-align: center;
 }
@@ -72,4 +72,7 @@ body {font-family: Verdana, sans-serif;}
   padding: 5px;
   background: #1abc9c;
   color: white !important
+}
+#final-results{
+    display: inherit;
 }
