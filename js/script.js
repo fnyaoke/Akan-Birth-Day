@@ -2,6 +2,12 @@ var dateOfBirth = document.getElementById("dateborn");
 var birthMonth = document.getElementById("birthmonth");
 var yearOfBirth = document.getElementById("year");
 var yourGender = document.getElementById("identity");
+//validate form
+document.readyState
+while (dateOfBirth<1||dateOfBirth>31) {
+    alert('please enter a valid date');
+    break;
+}
 
 //convert the string input into number datatypes//
 var century = parseInt(yearOfBirth[0]+yearOfBirth[1]);
@@ -47,7 +53,7 @@ var day = parseInt(dateOfBirth);
      var akanName = ncAkanName[nDayBorn];
  };
 function getResults() {
-    alert ('You were born on ' + dayOfWeek + ' and your Akan Name is ' + akanName)
+    console.writeLine('You were born on ' + dayOfWeek + ' and your Akan Name is ' + akanName)
 }
  
 //  var nDay = Math.trunc(dayOfBirth);
